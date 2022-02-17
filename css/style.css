@@ -88,7 +88,7 @@ a.skip{
   -webkit-transition: top 1s ease-out;
   transition: left 1s ease-out;
   z-index: 1;
-  position: relative;
+  position: absolute;
   top: 20px;
   left: -500px;
 
@@ -112,7 +112,7 @@ nav a:focus{
 /* Requirements 6-10 here: */
 .intro{
   background-image: url("../images/header.jpg");
-  background-color: #858585;
+  background-color: #B3B3B3;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
