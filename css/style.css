@@ -97,7 +97,7 @@ a.skip{
 
 /* Requirement 4 code here*/
 nav a:focus{
-  border: solid 2px yellow;
+  border-top: solid 2px yellow;
 }
 
 
@@ -111,8 +111,8 @@ nav a:focus{
 
 /* Requirements 6-10 here: */
 .intro{
-  background-image: url("../images/header.jpg");
-  background-color: #B3B3B3;
+  background-image: url(../images/header.jpg);
+  background-color: #707070;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -171,6 +171,7 @@ img{
   /* Requirements 12-15 here: */
 
   a.skip:focus{
+    text-align:left;
     position: absolute;
     left: 0px;
     top: 20px;
